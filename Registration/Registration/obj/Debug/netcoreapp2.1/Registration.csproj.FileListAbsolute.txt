@@ -33,3 +33,6 @@ D:\GitHub\Registration\Registration\Registration\obj\Debug\netcoreapp2.1\Registr
 D:\GitHub\Registration\Registration\Registration\obj\Debug\netcoreapp2.1\Registration.pdb
 D:\GitHub\Registration\Registration\Registration\obj\Debug\netcoreapp2.1\Registration.csproj.CopyComplete
 D:\GitHub\Registration\Registration\Registration\obj\Debug\netcoreapp2.1\Razor\Views\Home\myView.cshtml.g.cs
+D:\GitHub\Registration\Registration\Registration\obj\Debug\netcoreapp2.1\Razor\Views\Home\Register.cshtml.g.cs
+D:\GitHub\Registration\Registration\Registration\obj\Debug\netcoreapp2.1\Razor\Views\Home\Thanks.cshtml.g.cs
+D:\GitHub\Registration\Registration\Registration\obj\Debug\netcoreapp2.1\Razor\Views\Home\listStudent.cshtml.g.cs

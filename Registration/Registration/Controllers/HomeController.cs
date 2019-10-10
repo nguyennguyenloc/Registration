@@ -14,15 +14,39 @@ namespace Registration.Controllers
         {
             return View();
         }*/
-        public ViewResult index()
+        /*public ViewResult index()
         {
+            return View("myView");
+        }*/
+        public IActionResult Index()
+        {
+            ViewBag.loc = "My name is Loc";
             return View("myView");
         }
         public String Index2()
         {
             return "Hello Lộc, you can do it";
         }
-
-        
+        public IActionResult Register()
+        {
+            return View();
+        } 
+        [HttpPost]
+        public IActionResult Register(Student student)
+        {
+            if (ModelState.IsValid)
+            {
+                Reponsitory.AddStudent(student);
+                return View("Thanks",student);
+            }
+            else
+            {
+                return View();
+            }
+        }
+        public IActionResult listStudent()
+        {
+            return View(Reponsitory.GetStudents());
+        }
     }
 }
